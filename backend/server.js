@@ -3,10 +3,10 @@ import express from 'express'
 const app = express();
 
 
-app.get('/', (req, res) => {
-    res.send('Hello Worl')
+app.get('/s', (req, res) => {
+    res.send('Hello World')
 })
 
 app.listen(5001, () => {
-    console.log("Server is running")
+    console.log("Server is running not")
 })
